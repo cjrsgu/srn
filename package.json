@@ -1,0 +1,31 @@
+{
+  "name": "srn",
+  "version": "0.0.14",
+  "description": "smart rename",
+  "bin": {
+    "srn": "./src/index.js"
+  },
+  "repository": "https://github.com/cjvnjde/srn.git",
+  "author": "Vitalij Nykyforenko <vitalij.nykyforenko@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "commander": "^2.20.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  }
+}

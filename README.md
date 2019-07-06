@@ -1,2 +1,2 @@
 # srn
-smart renamer
+smart rename
