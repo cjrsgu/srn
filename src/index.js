@@ -38,9 +38,10 @@ program
 
 function useMomentPattern(pattern) {
   const newName = moment().format(pattern);
-
   const pathArr = configs.to.split('/').reverse();
+
   pathArr[0] = `${newName}.${pathArr[0].split('.').reverse()[0]}`;
+
   const newPath = pathArr.reverse().join('/').replace(/ /g, '_');
 
   return newPath;
